@@ -1,0 +1,14 @@
+{
+  "name": "mrpt",
+  "version-string": "2.3.2",
+  "description": "Mobile Robot Programming Toolkit (MRPT)",
+  "homepage": "https://docs.mrpt.org/reference/latest/",
+  "dependencies": [
+    "opencv",
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "wxwidgets"
+  ]
+}
